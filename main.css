@@ -1,0 +1,57 @@
+header {
+    font-family: Helvetica;
+    width: 100%; 
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background-image: url(./pattern.jpeg);
+    margin-bottom: 80px;
+    margin-top: 0px;
+}
+body {
+    background-color: rgb(240, 237, 214);
+    border-bottom: 100px;
+}
+h1{
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-top: 50px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: 25%;
+    width: 25%;
+    border-radius: 50%;
+}
+h2 {
+    font-family: helvetica;
+    opacity: 50%;
+
+}
+p {
+    font-family: Helvetica;
+    display: inline;
+    border: 100px;
+    margin-top: 80px;
+    
+}
+#sales {
+    font-family: Helvetica;
+    font-weight: bold;
+    color:blue;
+    }
+footer {
+    margin-top: 100px;
+    width:100%;
+    z-index: 10;
+    font-family: Helvetica;
+    border-top:dotted;
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    text-align: center;
+
+}
