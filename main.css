@@ -1,3 +1,20 @@
+/*
+
+Table of Contents
+
+-Header
+-Body 
+-h1
+-h2
+-img
+-p
+-#sales (paragraph with sales ID)
+-footer
+
+*/
+
+
+
 header {
     font-family: Helvetica;
     width: 100%; 
@@ -6,8 +23,13 @@ header {
     color: khaki;
     text-align: center;
     background-image: url(./pattern.jpeg);
+    background-size: 50%;
     margin-bottom: 80px;
-    margin-top: 0px;
+}
+div {
+    display:inline-block;
+    width:31%;
+    margin:2px;
 }
 body {
     background-color: rgb(240, 237, 214);
@@ -20,18 +42,19 @@ h1{
     color: white;
     margin-top: 50px;
 }
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: 25%;
-    width: 25%;
-    border-radius: 50%;
-}
 h2 {
     font-family: helvetica;
     opacity: 50%;
 
 }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 30%;
+}
+
 p {
     font-family: Helvetica;
     display: inline;
